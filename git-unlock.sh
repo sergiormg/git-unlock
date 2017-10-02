@@ -4,7 +4,7 @@
 set -o errexit
 set -o pipefail
 set -o nounset
-set -o xtrace
+#set -o xtrace
 
 readonly lock_ref_regex='(?<=error: cannot lock ref '\'').*(?='\'': is at )'
 
