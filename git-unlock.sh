@@ -20,7 +20,7 @@ then
 	for ref in "${_errors[@]}"
 	do
 		echo "Deleting reference '$ref'"
-		#git update-ref -d "${ref}"
+		git update-ref -d "${ref}"
 	done
 else
 	echo "No problems found."
