@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # "git unlock", a custom command for git.
 
-set -o errexit
+#set -o errexit
 set -o pipefail
 set -o nounset
 #set -o xtrace
